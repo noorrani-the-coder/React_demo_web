@@ -1,0 +1,104 @@
+.services {
+  background-color: black;
+  color: white;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.services h2 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.service-slide {
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.service-slide:hover {
+  transform: scale(1.03);
+}
+
+.service-card {
+  background: white;
+  color: black;
+  padding: 25px;
+  border-radius: 16px;
+  min-height: 480px;
+  height: 100%;
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(255, 255, 255, 0.2);
+}
+
+.service-icon {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.service-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.points {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.points li {
+  margin-bottom: 5px;
+}
+
+.footer {
+  margin-top: 12px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Button below all cards */
+.book-now-container {
+  margin-top: 40px;
+}
+
+.book-now {
+  background: white;
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.book-now:hover {
+  background: #ddd;
+}
+
+/* Slick dot overrides */
+.slick-dots li button:before {
+  color: white;
+  font-size: 12px;
+}
